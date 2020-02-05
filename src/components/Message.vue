@@ -2,7 +2,7 @@
     <section class="message">
         <img src="http://placekitten.com/100/100" alt="" class="message__pic">
         <div class="message__text">
-            <p class="message__name">{{mes.user}}</p>
+            <p class="message__name">{{mes.userId}}</p>
             <p class="message__title">{{mes.title}}</p>
             <p class="message__content">{{mes.body}}</p>
         </div>
@@ -28,6 +28,12 @@ export default {
     .message__pic {
         float: left;
         margin-right: 15px;
+    }
+
+    .message__name {
+        color: #939291;
+        font-size: 15px;
+        margin: 5px 0 10px;
     }
 
     .message__title {
