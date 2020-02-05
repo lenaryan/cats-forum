@@ -16,3 +16,37 @@ export default {
     ]
 }
 </script>
+
+<style scoped>
+    .message {
+        background: #E6F5FF;
+        border: 1px solid #c1dff3;
+        padding: 15px 25px;
+        margin-bottom: 15px;
+    }
+
+    .message__pic {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .message__title {
+        font-size: 23px;
+        margin: 0 0 5px;
+    }
+
+    .message__content {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    @media (max-width: 480px) {
+        .message__content {
+            clear: both;
+        }
+
+        .message__pic {
+            margin-bottom: 10px;
+        }
+    }
+</style>
