@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Message />
+    <MessageList />
   </div>
 </template>
 
 <script>
-import Message from '@/components/Message'
+import MessageList from '@/components/MessageList'
 export default {
   name: 'app',
   components: {
-    Message
+    MessageList
   }
 }
 </script>
