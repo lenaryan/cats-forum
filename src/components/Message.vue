@@ -23,6 +23,7 @@ export default {
         border: 1px solid #c1dff3;
         padding: 15px 25px;
         margin-bottom: 15px;
+        min-height: 100px;
     }
 
     .message__pic {
