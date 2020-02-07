@@ -29,6 +29,7 @@ export default {
     .message__pic {
         float: left;
         margin-right: 15px;
+        margin-bottom: 10px;
     }
 
     .message__name {
@@ -50,10 +51,6 @@ export default {
     @media (max-width: 480px) {
         .message__content {
             clear: both;
-        }
-
-        .message__pic {
-            margin-bottom: 10px;
         }
     }
 </style>

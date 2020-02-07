@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="message-list">
         <Message 
             v-for="mes in messages"
             v-bind:mes="mes"
@@ -18,3 +18,9 @@ export default {
     }
 }
 </script>
+
+<style>
+    .message-list {
+        width: 75%;
+    }
+</style>
